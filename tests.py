@@ -18,6 +18,7 @@ class QuadraticEquationTestCase(unittest.TestCase):
         self.assertIsNotNone(root1)
         self.assertIsNone(root2)
 
+    #
     # def test_returns_none_for_complex_solution(self):
     #     root1, root2 = get_roots(1, 2, 3)
     #     self.assertIsNone(root1)
