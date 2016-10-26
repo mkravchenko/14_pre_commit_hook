@@ -6,9 +6,9 @@
 For example:<br />
 python D:\\project\\14_pre_commit_hook\\tests.py<br />
 3. Save the file.
-3. Under project folder run (to get the permissions and only once):<br />
+4. Under project folder run (to get the permissions and only once):<br />
 chmod +x .git/hooks/pre-commit<br />
-4. Do some changes in any file and run:<br />
+5. Do some changes in any file and in command line run:<br />
 git add file_name.py<br />
 git commit -m "some changes"<br />
-5.If tests pass, changes will be committed. If tests fail, commit will be canceled.
+6. If tests pass, changes will be committed. If tests fail, commit will be canceled.
